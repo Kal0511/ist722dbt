@@ -40,4 +40,4 @@ models:
           - relationships:
               arguments:
                 to: ref('stg_customers')
-                field: customer_idS
+                field: customer_id
