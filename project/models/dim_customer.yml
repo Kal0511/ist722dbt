@@ -12,9 +12,5 @@ models:
       - name: customer_id
         description: The business / source key of the customer
         tests:
-          - unique
-      - name: account_id
-        description: The business / source key of the account
-        tests:
           - not_null
           - unique

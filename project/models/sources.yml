@@ -53,4 +53,7 @@ sources:
           - name: order_id
             tests:
               - unique
+      - name:  fm_order_details
+        columns:
+          - name: order_id
             
